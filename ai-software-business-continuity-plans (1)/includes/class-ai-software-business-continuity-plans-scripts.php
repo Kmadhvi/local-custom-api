@@ -36,7 +36,7 @@ class Ai_Software_Business_Continuity_Plans_Script {
 	public function aisbcp_add_scripts() {
 		
 		// Correct: AIzaSyB_cznuTWSnw57hId_PuitEVzTm4lkqym0
-		wp_enqueue_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB_cznuTWSnw57hId_PuitEVzTm4lkqym0&libraries=places', array(), null, true);
+		//wp_enqueue_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB_cznuTWSnw57hId_PuitEVzTm4lkqym0&libraries=places', array(), null, true);
 		
 		wp_enqueue_script('aisbcp-validate-min', AI_SOFTWARE_BUSINESS_CONTINUITY_PLANS_URL . 'public/js/jquery.validate.min.js', array('jquery'), time() , false );
 		
