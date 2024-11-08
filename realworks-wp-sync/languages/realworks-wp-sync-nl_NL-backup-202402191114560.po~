@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RealWorks-WP Sync\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-19 08:38+0000\n"
+"PO-Revision-Date: 2024-02-19 09:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: realworks-wp-sync"
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:66
+msgid "Acceptance:"
+msgstr "Aanvaarding:"
+
+#: admin/class-realworks-wp-sync-admin.php:88
+#: admin/class-realworks-wp-sync-admin.php:89
+msgid "Add New RealWorks Property"
+msgstr "Nieuw woning toevoegen"
+
+#: admin/class-realworks-wp-sync-admin.php:92
+msgid "All RealWorks Properties"
+msgstr "Alle woningen"
+
+#: admin/partials/realworks-wp-sync-general-settings-html.php:26
+msgid "API Access Token"
+msgstr "API Toegang Token"
+
+#: admin/partials/realworks-wp-sync-general-settings-html.php:19
+msgid "API Base URL"
+msgstr "API basis URL"
+
+#: public/class-realworks-wp-sync-public.php:116
+#: public/class-realworks-wp-sync-public.php:215
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:88
+msgid "Available"
+msgstr "Beschikbaar"
+
+#: public/class-realworks-wp-sync-public.php:240
+msgid "Back to Property List"
+msgstr "Terug naar Eigenschappenlijst"
+
+#: public/class-realworks-wp-sync-public.php:103
+#: public/class-realworks-wp-sync-public.php:109
+#: public/class-realworks-wp-sync-public.php:202
+#: public/class-realworks-wp-sync-public.php:208
+msgid "Bedrooms"
+msgstr "Slaapkamers"
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:56
+msgid "Bedrooms:"
+msgstr "Slaapkamers:"
+
+#: public/class-realworks-wp-sync-public.php:97
+#: public/class-realworks-wp-sync-public.php:196
+msgid "Cadestral Surface area"
+msgstr "Cadestrale oppervlakte"
+
+#: admin/partials/realworks-wp-sync-general-settings-html.php:28
+msgid "Click here to get RealWorks Access Token"
+msgstr "Klik hier om een toegangscode voor RealWorks te krijgen"
+
+#: admin/partials/realworks-wp-sync-general-settings-html.php:36
+msgid "Click here to get the Google MAP API key"
+msgstr "Klik hier om de Google MAP API-sleutel te verkrijgen"
+
+#: admin/class-realworks-wp-sync-admin.php:90
+msgid "Edit RealWorks Property"
+msgstr "Vastgoed in RealWorks bewerken"
+
+#: admin/class-realworks-wp-sync-admin.php:141
+msgid "Gallery Images"
+msgstr ""
+
+#: admin/partials/realworks-wp-sync-general-settings-html.php:34
+msgid "Google Map API Key"
+msgstr "Google Kaart API sleutel"
+
+#: admin/class-realworks-wp-sync-admin.php:104
+msgid "Holds our RealWorks Properties and Data"
+msgstr "Bevat onze RealWorks-eigenschappen en -gegevens"
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:26
+msgid "House Number:"
+msgstr "Huisnummer:"
+
+#. URI of the plugin
+msgid "https://https://www.worldwebtechnology.com/"
+msgstr "https://https://www.worldwebtechnology.com/"
+
+#. Author URI of the plugin
+msgid "https://https://www.worldwebtechnology.com//"
+msgstr "https://https://www.worldwebtechnology.com//"
+
+#: admin/partials/realworks-wp-sync-general-settings-html.php:58
+msgid "Import Properties"
+msgstr "Woningen importeren"
+
+#: public/class-realworks-wp-sync-public.php:91
+#: public/class-realworks-wp-sync-public.php:190
+msgid "Living area"
+msgstr "Leefruimte"
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:46
+msgid "Living Area:"
+msgstr "Leefruimte:"
+
+#: realworks-wp-sync.php:212
+msgid "More by World Web Technology"
+msgstr "Meer van World Web Technology"
+
+#: admin/class-realworks-wp-sync-admin.php:91
+msgid "New RealWorks Property"
+msgstr "Nieuw eigendom van RealWorks"
+
+#: admin/class-realworks-wp-sync-admin.php:95
+msgid "No RealWorks Properties found"
+msgstr "Geen RealWorks Eigenschappen gevonden"
+
+#: admin/class-realworks-wp-sync-admin.php:96
+msgid "No RealWorks Properties found in Trash"
+msgstr "Geen RealWorks woningen gevonden in Prullenbak"
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:82
+msgid "Plot:"
+msgstr "Korte inhoud:"
+
+#: admin/class-realworks-wp-sync-admin.php:336
+msgid "Property Address"
+msgstr ""
+
+#: admin/class-realworks-wp-sync-admin.php:337
+msgid "Property Price"
+msgstr ""
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:42
+msgid "Property Price:"
+msgstr "Prijs woning:"
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:36
+msgid "Property Province:"
+msgstr ""
+
+#: admin/class-realworks-wp-sync-admin.php:338
+msgid "Property Status"
+msgstr ""
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:86
+msgid "Property Status:"
+msgstr "Eigendom Status:"
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:22
+msgid "Property Street:"
+msgstr "Huisstraat:"
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:32
+msgid "Property Zipcode:"
+msgstr "Eigendom Postcode:"
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:72
+msgid "Purchase Specification:"
+msgstr "Aankoopspecificatie:"
+
+#: admin/partials/realworks-wp-sync-general-settings-html.php:13
+msgid "RealWorks API General Settings"
+msgstr "RealWorks API Algemene instellingen"
+
+#: admin/class-realworks-wp-sync-admin.php:86
+#: admin/class-realworks-wp-sync-admin.php:87
+#: admin/class-realworks-wp-sync-admin.php:98
+#: admin/class-realworks-wp-sync-admin.php:103
+msgid "RealWorks Properties"
+msgstr "Woningen"
+
+#. Name of the plugin
+msgid "RealWorks-WP Sync"
+msgstr "RealWorks-WP synchroniseren"
+
+#: admin/class-realworks-wp-sync-admin.php:38
+msgid "RealWorks-WP Sync General Settings"
+msgstr "RealWorks-WP Sync Algemene instellingen"
+
+#: admin/class-realworks-wp-sync-admin.php:39
+msgid "RealWorks-WP Sync Settings"
+msgstr "RealWorks-WP synchronisatie-instellingen"
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:62
+msgid "Rental Price:"
+msgstr "Huurprijs:"
+
+#: admin/partials/realworks-wp-sync-general-settings-html.php:60
+msgid "Run Importer"
+msgstr "Nu importeren"
+
+#: admin/partials/realworks-wp-sync-general-settings-html.php:68
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: admin/class-realworks-wp-sync-admin.php:94
+msgid "Search RealWorks Properties"
+msgstr "Vastgoed van RealWorks zoeken"
+
+#: admin/partials/realworks-wp-sync-general-settings-html.php:42
+msgid "Select Cron Interval"
+msgstr "Selecteer Cron Interval"
+
+#: realworks-wp-sync.php:211
+msgid "Settings"
+msgstr "Instellingen"
+
+#: public/class-realworks-wp-sync-public.php:118
+#: public/class-realworks-wp-sync-public.php:217
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:89
+msgid "Sold"
+msgstr "Verkocht"
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:76
+msgid "Surface:"
+msgstr "Oppervlak:"
+
+#. Description of the plugin
+msgid ""
+"The RealWorks-WordPress Sync plugin offers functionality to import property "
+"data from RealWorks into a WordPress Custom Post Type."
+msgstr ""
+"De RealWorks-WordPress Sync-plug-in biedt functionaliteit om "
+"vastgoedgegevens uit RealWorks te importeren in een WordPress Custom Post "
+"Type."
+
+#: admin/partials/realworks-wp-sync-cpt-metabox-html.php:52
+msgid "Total Cadestral Surface Area:"
+msgstr "Totale Cadestrale Oppervlakte:"
+
+#: admin/class-realworks-wp-sync-admin.php:176
+msgid "Upload Images"
+msgstr "Afbeeldingen uploaden"
+
+#: admin/class-realworks-wp-sync-admin.php:93
+msgid "View RealWorks Property"
+msgstr "Vastgoed van RealWorks bekijken"
+
+#. Author of the plugin
+msgid "World Web Technology"
+msgstr "Wereld Web Technologie"

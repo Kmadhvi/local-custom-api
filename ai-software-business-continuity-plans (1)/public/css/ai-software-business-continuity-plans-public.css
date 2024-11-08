@@ -1,0 +1,326 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ul.business-continuity-posts-lable-ul {
+	display: flex;
+	list-style: none;
+	margin: 0px !important;
+	padding: 20px 0px 20px 0px;
+}
+
+li.business-continuity-posts-lable-li {
+	padding: 20px 20px 20px 20px;
+	background: #f2f2f2;
+	margin: 0px 10px 0px 0px;
+}
+
+textarea#aisbcp-search-input {
+    margin-bottom: 20px;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.aisbcp-main-loader {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*font-size: 0 !important;*/
+}
+.aisbcp-main-loader:after {
+    border: 6px solid #b3b3b3;
+    border-radius: 50%;
+    border-top: 6px solid #03456b;
+    width: 45px;
+    height: 45px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+    content: "";
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+.aisbcp-main-loader:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.aisbcp-main-loader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000003d !important;
+    z-index: 9999;
+    left: 0;
+}
+
+/* Footer Section Start */
+body .col-full{max-width: 800px;}
+body .site-footer{background-color: #151414;}
+body .site-footer .widget-title{color: #fff !important;font-weight: 600}
+body .site-footer .widget-title, body .site-footer .widgettitle{border-bottom: none;}
+body .site-footer .textwidget {color: #fff;font-size: 16px;font-weight: 400;}
+body .site-footer .site-info{background-color: #202020;
+    text-align: center;
+    padding: 20px 20px;
+    color: white;}
+body .site-footer a:not(.button):not(.components-button){
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+body .site-footer a:not(.button):not(.components-button):hover{
+    color: #f82249;
+    text-decoration: underline;
+}
+body .site-footer .widget_nav_menu ul li::before{color: #f82249;opacity: 1;}
+body .footer-widget-1{
+    max-width: 350px;
+    width: 100%;
+}
+/* Header Start */
+#masthead{
+    display: flex;
+    background-color: #151414;
+    max-width: 100%;
+    width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 22px 225px;
+}
+#masthead > .col-full{
+    width: 20%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+#masthead .storefront-primary-navigation{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#masthead .storefront-primary-navigation .col-full{
+    width: unset;
+    max-width: unset;
+    margin: 0;
+    padding: 0;
+}
+.site-header .site-branding{
+    margin-bottom: 0;
+}
+.main-navigation ul.menu, .main-navigation ul.nav-menu li a{
+    padding: 0 16px !important;
+}
+.site-header .site-branding img{
+    max-width: 185px !important;
+}
+.main-navigation ul li a{
+    transition: all 0.5s;
+}
+.main-navigation ul li a:hover, .main-navigation ul li:hover > a, .site-title a:hover, .site-header ul.menu li.current-menu-item > a{
+    color: #f82249 !important;
+    border-bottom: 2px solid;
+}
+
+/* Content Start */
+#content .content-area{
+    margin: 50px 0;
+}
+
+.business-continuity-posts-lable-ul li.business-continuity-posts-lable-li{
+    background: #f82249;
+    color: #fff;
+    padding: 13px 20px;
+    transition: all 0.3s;
+    border: 1px solid #f82249;
+}
+.business-continuity-posts-lable-ul li.business-continuity-posts-lable-li:hover{
+    background-color: #fff;
+    color: #f82249;
+}
+.aisbcp-search-main #aisbcp-search-input{
+    border: 1px solid #0000003b;
+    box-shadow: none;
+    background: none;
+}
+.ai-search-btn-main{
+    background-color: #fff;
+    border: 1px solid #f82249 !important;
+    color: #f82249;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+.ai-search-btn-main:focus, .ai-search-btn-main:focus-visible{
+    outline: none;
+    border: none;
+}
+.ai-search-btn-main:hover{
+    background-color: #f82249;
+    color: #fff;
+}
+.edit-link a{
+    color: #282828;
+}
+.landing-header-title{
+    color: #282828;
+    font-weight: 600;
+}
+.main-navigation ul li a, .site-title a, ul.menu li a, .site-branding h1 a, button.menu-toggle, button.menu-toggle:hover, .handheld-navigation .dropdown-toggle{
+    color: #fff !important;
+}
+.aisbcp-search-main textarea{
+    min-height: 200px;
+    color: #000;
+}
+.aisbcp-search-main textarea:focus, .aisbcp-search-main textarea:focus-visible{
+    outline: none;
+    border: none;
+}
+.aisbcp-openai-main-wrap .aisbcp-openai-inner-wrap{
+    font-size: 16px;
+    color: #000;
+}
+.aisbcp-openai-main-wrap{
+    border-bottom: 2px solid #f82249;
+    border-top: 2px solid #f82249;
+    padding: 15px 0 15px 0;
+    margin: 20px 0;
+}
+#aisbcp-pdf-btn{
+    background: #f82249;
+    color: #fff;
+    padding: 10px 20px;
+    transition: all 0.3s;
+    border: 1px solid #f82249 !important;
+    margin-top: 25px;
+}
+#aisbcp-pdf-btn:hover{
+    background: #fff;
+    color: #f82249;
+}
+#aisbcp-pdf-btn:focus, #aisbcp-pdf-btn:focus-visible{
+    outline: none;
+    border: none;
+}
+#aisbcp-signup .site-signup-form-inner-col-12{
+    margin-bottom: 15px;
+}
+#aisbcp-signup .site-signup-form-inner-col-12 label{
+    display: block;
+    color: #282828;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+#aisbcp-signup .site-signup-form-inner-col-12 input[type=text], #aisbcp-signup .site-signup-form-inner-col-12 input[type=datetime-local], #aisbcp-signup .site-signup-form-inner-col-12 select{
+    border: 1px solid #0000003b;
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    box-shadow: none;
+}
+#aisbcp-signup .site-signup-form-inner-col-12 input:focus, #aisbcp-signup .site-signup-form-inner-col-12 input:focus-visible, #aisbcp-signup .site-signup-form-inner-col-12 select:focus, #aisbcp-signup .site-signup-form-inner-col-12 select:focus-visible{
+    outline: none;
+    box-shadow: none;
+}
+#aisbcp-signup .btn{
+    background-color: #fff;
+    border: 1px solid #f82249 !important;
+    color: #f82249;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+#aisbcp-signup .btn:hover{
+    background-color: #f82249;
+    color: #fff;
+}
+#affected-areas-list li, #actions-taken-list li{
+    margin-top: 15px;
+}
+#affected-areas-list, #actions-taken-list{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+}
+#affected-areas-list li, #actions-taken-list li{
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    background: #f82249;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#actions-taken-list li, #affected-areas-list li{
+    position: relative;
+}
+#actions-taken-list li .remove-tag, #affected-areas-list li .remove-tag{
+    line-height: normal;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 15px;
+    border-radius: 50%;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+}
+#actions-taken-list li .remove-tag i, #affected-areas-list li .remove-tag i{
+    font-weight: 100;
+    color: #fff;
+    font-size: 7px;
+    display: inline-block;
+}
+
+label.error {
+    color: red;
+}
+
+/* Registration Form Satrt */
+#ai-software-business-signup .site-signup-form-inner-col-12{margin-bottom: 15px;}
+#ai-software-business-signup .site-signup-form-inner-col-12 label {display: block;color: #282828;font-weight: 600;padding-bottom: 5px;}
+#ai-software-business-signup .site-signup-form-inner-col-12 input[type=text], 
+#ai-software-business-signup .site-signup-form-inner-col-12 input[type=email], 
+#ai-software-business-signup .site-signup-form-inner-col-12 input[type=password],
+#ai-software-business-signup .site-signup-form-inner-col-12 input[type=tel],
+#ai-software-business-signup .site-signup-form-inner-col-12 select {border: 1px solid #0000003b;background-color: #fff;width: 100%;height: 50px;padding: 10px;box-shadow: none;}
+#ai-software-business-signup .btn:hover {background-color: #f82249;color: #fff;}
+#ai-software-business-signup .btn {background-color: #fff;border: 1px solid #f82249 !important;color: #f82249;transition: all 0.3s;margin-right: 10px;}
+.aiscp_login a{color: #f82249;}
+/* Registration Form End */
+
+/* Login Form Satrt */
+
+#ai-software-business-login .site-signup-form-inner-col-12{margin-bottom: 15px;}
+#ai-software-business-login .site-signup-form-inner-col-12 label {display: block;color: #282828;font-weight: 600;padding-bottom: 5px;}
+#ai-software-business-login .site-signup-form-inner-col-12 input[type=text], 
+#ai-software-business-login .site-signup-form-inner-col-12 input[type=password] {border: 1px solid #0000003b;background-color: #fff;width: 100%;height: 50px;padding: 10px;box-shadow: none;}
+#ai-software-business-login .btn:hover {background-color: #f82249;color: #fff;}
+#ai-software-business-login .btn {background-color: #fff;border: 1px solid #f82249 !important;color: #f82249;transition: all 0.3s;margin-right: 10px;}
+/* Login Form End */

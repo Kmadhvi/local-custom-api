@@ -1,0 +1,87 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ @font-face {
+    font-family: 'Kastelov-Axiforma';
+    src: url('../fonts/Kastelov-Axiforma-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    /*font-display: swap;*/
+ }
+
+ @font-face {
+    font-family: 'ClashDisplay';
+    src: url('../fonts/ClashDisplay-Semibold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    /*font-display: swap;*/
+ }
+
+ @font-face {
+    font-family: 'Kastelov-Axiforma';
+    src: url('../fonts/Kastelov-Axiforma-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    /*font-display: swap;*/
+ }
+
+ @font-face {
+    font-family: 'WorkSans-BoldItalic';
+    src: url('../fonts/WorkSans-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    /*font-display: swap;*/
+ }
+
+.roi-calculator-custom{background: linear-gradient(180deg, #2c1262 6%, #1c0b3e 71%, #13072d 100%); font-family: 'Kastelov-Axiforma';}
+.roi-calculator-custom #content .ast-container{max-width: 100% !important; padding: 0 !important;}
+.roi-calculator-custom .entry-content .container{max-width: 1240px !important; padding: 0 20px !important; display: block; margin: 0 auto !important;}
+.roi-calculator-custom .primary{margin: 0 !important;}
+.roi-calculator-custom .main-content{padding: 4rem 0 1rem 0;}
+.roi-calculator-custom .main-faq { background: #f8f8ff; padding: 4rem 0; }
+.roi-calculator-custom .ast-article-single{background: transparent !important; padding: 0 !important;}
+.roi-calculator-custom .ast-article-single p { color: #f4f2ff; opacity: 0.82; }
+.roi-calculator-custom .ast-article-single h2, .roi-calculator-custom .ast-article-single h3, .roi-calculator-custom .ast-article-single h4, .roi-calculator-custom .ast-article-single h5{color: #f4f2ff;}
+.roi_tool_step_form { width: 100%; display: block; position: relative; max-width: 700px; margin: 0 auto 4rem; padding: 40px; background-color: rgba(255,255,255,0.08); border-radius: 16px; box-shadow: 0px 0px 12px 0px #060303e0;}
+.roi_tool_step_form fieldset{border-color: #f4f2ff80 !important; border: 0 !important; padding: 0 !important;}
+.roi_tool_step_form fieldset legend { margin: 0; color: #fff; font-size: 16px; }
+.roi_tool_step_form fieldset label { color: #fff; margin: 0 0 10px 0; display: block; }
+.roi_tool_step_form input.form-control, .roi_tool_step_form .form-group input, .roi_tool_step_form select.form-control, .roi_tool_step_form .select2-selection { padding: 14px 25px !important; width: 100% !important; height: auto !important; border-radius: 10px !important; margin-bottom: 10px !important; font-weight: 400 !important; font-size: 1em; background: #fff; border: 1.5px solid rgba(210, 210, 210, .8) !important; color: #000; background-color: #fff !important; }
+.roi_tool_step_form .select2-container .select2-selection--single .select2-selection__rendered { padding-left: 0; }
+.roi_tool_step_form .select2-container--default .select2-selection--single .select2-selection__arrow { height: auto; min-height: 58px; }
+.roi-calculator-custom .select2-container .select2-dropdown { left: 0; top: 14px !important; border-color: rgba(210, 210, 210, .8) !important; }
+.roi-calculator-custom .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable { background-color: #7238EC !important; color: white; }
+.roi-calculator-custom .select2-container--default .select2-results__option--selected { background-color: #17063B; color: #fff !important; }
+.roi_tool_step_form .form-group:last-child { margin: 0; }
+.roi-calculator-custom .select2-container .select2-search--inline .select2-search__field { margin: 0 !important; height: 25px; }
+.roi-calculator-custom .select2-container .select2-search--inline .select2-search__field::placeholder { color: #999; }
+.roi-calculator-custom .select2-container--default .select2-selection--multiple .select2-selection__choice { background: rgb(244 242 255 / 50%); border-color: rgba(210, 210, 210, .8) !important; margin: 0 5px 5px 0 !important; }
+.roi-calculator-custom .select2-container--default .select2-selection--multiple .select2-selection__choice__remove { border: 0; padding: 1px; width: 16px; height: 16px; top: 5px; left: 3px; display: flex; align-items: center; justify-content: center; border-radius: 50px; }
+.roi-calculator-custom .select2-container--default .select2-selection--multiple .select2-selection__choice__remove span { color: red; display: flex; align-items: center; justify-content: center; line-height: 6px; }
+.roi_tool_step_form .btn { margin-top: 0; background: #3b1983; border-radius: 45px; color: #F8F8FF; padding: 10px 28px; font-size: 14px; font-weight: 400; text-align: center; text-transform: capitalize; line-height: 20px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; transition: all .4s; position: relative;}
+.roi_tool_step_form .btn:after { background-image: url(https://justtaistg.wpengine.com/wp-content/uploads/2024/02/right-arrow2.svg); background-size: contain; background-position: center; background-repeat: no-repeat; content: ""; display: inline-flex; width: 12px; height: 12px; margin-left: -12px; opacity: 0; transition: all .4s; }
+.roi_tool_step_form .btn:hover::after { margin-left: 10px; opacity: 1; }
+.roi_tool_step_form .btn:hover { background: #7238EC; color: #ffffff; }
+.roi_tool_step_form .btn.prev-btn { margin-right: 10px; }
+.roi_tool_step_form .btn.prev-btn:hover{padding-left: 48px;}
+.roi_tool_step_form .btn.prev-btn:after { content: ""; position: absolute; left: 29px; margin: 0; transform: rotate(180deg);}
+.roi_tool_step_form .btn.prev-btn:hover:after{left: 23px;}
+.roi_tool_step_form #form_submit:after{content: inherit !important;}
+.roi-calculator-custom .error { color: red; padding: 0 0 5px 0; }
+.roi-calculator-custom .form-group { margin-bottom: 20px; }
+.roi-calculator-custom .form-control { margin-bottom: 10px; }
+.roi_tool_step_form p{color: #fff !important; opacity: 1 !important;}
+.roi-calculator-custom #message{width: 100%; display: block; position: relative; max-width: 700px; margin: 0 auto 4rem; padding: 40px; background-color: rgba(255,255,255,0.08); border-radius: 16px;  color: #fff; box-shadow: 0px 0px 12px 0px #060303e0;}
+.roi-calculator-custom #message .roi-total{}
+.roi-calculator-custom #message p:first-child{margin-top: 10px !important;}
+.roi-calculator-custom #message p{margin-bottom: 10px !important;}
+.roi-calculator-custom #message p:last-child{margin: 0 !important;}
+.roi-calculator-custom .select2-container{width: 100% !important;}
+.roi-calculator-custom .main-faq section { width: 100%; background-color: #fdfdff; text-align: left; align-items: center; border: 1px #dfecf9 solid; border-radius: 16px; display: inline-block; padding: 25px 30px;}
+.roi-calculator-custom .main-faq h3 { color: #17063b; text-align: left; line-height: 40px; font-size: 32px; font-weight: 500; }
+.roi-calculator-custom .main-faq .roi-faq-title { text-align: left; color: #17063b; font-size: 18px; font-weight: 500; line-height: 24px; margin: 0 0 16px 0; padding: 0 0 16px 0; border-bottom: 1px #dfecf9 solid; cursor: pointer;}
+.roi-calculator-custom .main-faq .roi-faq-title:last-child{margin: 0;}
+.roi-calculator-custom .main-faq .roi-faq-title:after{font-size: 20px;}
+.roi-calculator-custom .main-faq .roi-faq-body{padding: 0;}
+.roi-calculator-custom .main-faq .roi-faq-body p{text-align: left; color: #58515e; font-size: 16px; font-weight: 400; line-height: 24px; }

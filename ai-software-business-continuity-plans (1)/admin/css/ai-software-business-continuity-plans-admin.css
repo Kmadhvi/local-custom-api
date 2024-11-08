@@ -1,0 +1,77 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+#plants-list li{
+    margin-top: 15px;
+}
+#plants-list{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+}
+#plants-list li{
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    background: #f82249;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#plants-list li{
+    position: relative;
+}
+#plants-list li .remove-tag{
+    /*line-height: normal;*/
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 15px;
+    border-radius: 50%;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+}
+#plants-list li .remove-tag i{
+    font-weight: 100;
+    color: #fff;
+    font-size: 7px;
+    display: inline-block;
+}
+
+label.error {
+    color: red;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+  font: normal 1em/1 Arial, sans-serif;
+  display: inline-block;
+}
+
+.ico-times::before { content: "\2716"; }
+.ico-check::before { content: "\2714"; }
